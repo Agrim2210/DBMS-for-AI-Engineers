@@ -145,14 +145,14 @@ This ensures that **every order belongs to a valid customer**.
 
 ---
 
-## 7. Keys in Your E-commerce Database
+## 7. Keys in  E-commerce Database
 
 | Table       | Primary Key            |
 | ----------- | ---------------------- |
 | customers   | customer_id            |
 | products    | product_id             |
 | orders      | order_id               |
-| order_items | (order_id, product_id) |
+| order_items | order_items_id, |
 | payments    | payment_id             |
 
 Foreign keys:
